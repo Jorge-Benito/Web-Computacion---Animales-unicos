@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #95CC85;
+}
+ 
+/* Encabezado */
+header {
+    background-color: #006199;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+ 
+table {
+    border-collapse: None; /* Une las líneas de la tabla */
+    width: 100%;
+}
+ 
+th, td {
+    border: 3px solid black; /* Líneas de la tabla */
+    padding: 10px;
+    text-align: center;
+}
+ 
+th {
+    background-color: #B5F5CE; /* Color del encabezado */
+    color: Black;
+}
+
+/* Secciones */
+.seccion {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+}
+ 
+/* Sección con imagen y texto en horizontal */
+.especial {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+ 
+.imagen img {
+    width: 200px;
+    border-radius: 8px;
+}
+
+   button {
+            background-color: #95CC85;
+            color: white;
+            border: none;
+            padding: 15px 25px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+ 
+        button:hover {
+            background-color: lightblue;
+        }
+
+.texto {
+    flex: 1;
+}
+ 
+/* Pie de página */
+footer {
+    background-color: #F5F5BC;
+    color: black;
+    text-align: center;
+    padding: 1px;
+}
