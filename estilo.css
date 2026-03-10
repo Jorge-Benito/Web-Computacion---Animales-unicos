@@ -44,8 +44,8 @@ th {
 }
  
 .imagen img {
-    width: 200px;
-    border-radius: 8px;
+    width: 300px;
+    border-radius: 20px;
 }
 
    button {
@@ -72,14 +72,6 @@ footer {
     text-align: center;
     padding: 1px;
 }
-
-
-
-
-
-
-
-
 
 body {
     font-family: Arial;
